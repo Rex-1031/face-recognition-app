@@ -76,8 +76,8 @@ class  Signin extends Component {
                   />
                 </div>
                 <div className="lh-copy mt3">
-                  <p onClick={()=> onRouteChange('register')} className="f6 link dim black db">Register</p>
-  
+                  <p className='f6 dim black db'>New to TrackFace?</p>
+                  <p onClick={()=> onRouteChange('register')} className="f6 link dim black db">Register here!</p>
                 </div>
               </div>
           </main>
